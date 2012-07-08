@@ -19,7 +19,7 @@ public class Prog5 {
 			BufferedImage image = ImageIO.read(new File(args[0]));
 			Graphics2D g = (Graphics2D) image.getGraphics();
 			
-			AlphaComposite ac = AlphaComposite.getInstance(AlphaComposite.SRC_OVER, .1f); 
+			AlphaComposite ac = AlphaComposite.getInstance(AlphaComposite.SRC_OVER, .3f); 
 			g.setComposite(ac);
 			g.setFont(new Font( "SansSerif", Font.BOLD, fontSize ));
 			g.setColor(Color.blue);
